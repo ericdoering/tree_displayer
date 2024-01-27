@@ -1,0 +1,13 @@
+.main-title {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 5rem;
+  color: rgb(101, 80, 36);
+}
+
+body {
+  background-color: rgb(232, 250, 206);
+}
