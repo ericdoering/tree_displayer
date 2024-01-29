@@ -3,21 +3,27 @@
     "photos": [
       {
         "id": 1,
-        "title": "Sunset at the Beach",
-        "url": "https://example.com/photos/sunset-beach.jpg",
-        "description": "A beautiful sunset at the beach with vibrant colors."
+        "title": "Red Maple",
+        "url": "https://als-gardencenter.com/cdn/shop/products/RedMaple-_RedSunset.jpg?v=1647461081",
+        "description": "Red Maple tree."
       },
       {
         "id": 2,
-        "title": "City Lights",
-        "url": "https://example.com/photos/city-lights.jpg",
-        "description": "Night view of the city with dazzling lights."
+        "title": "Swamp White Oak",
+        "url": "https://nfs.unl.edu/images/wood-plant/summer_0.JPG",
+        "description": "Swamp White Oak tree."
       },
       {
         "id": 3,
-        "title": "Mountain Landscape",
-        "url": "https://example.com/photos/mountain-landscape.jpg",
-        "description": "Scenic view of mountains and valleys."
+        "title": "Red Cedar",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/2014-05-13_08_32_55_Eastern_Red_Cedar_at_South_Riding_Golf_Club_in_South_Riding%2C_Virginia.JPG",
+        "description": "Red Cedar tree."
+      },
+      {
+        "id": 4,
+        "title": "Honey Locust",
+        "url": "https://www.bates.edu/canopy/files/2017/12/Honey-Locust.jpg",
+        "description": "Honey Locust tree."
       }
     ]
   }
