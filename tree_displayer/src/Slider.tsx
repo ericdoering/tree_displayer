@@ -22,13 +22,15 @@ type PhotoData = {
 
     return (
       <>
-        <div>
+        <div className="displayer">
             <div key={currentPhoto.id}>
-                <h1>{currentPhoto.title}</h1>
-                <img height={300} width={600} src={currentPhoto.url} alt={currentPhoto.description} />
+                <h1 className="tree-title">{currentPhoto.title}</h1>
+                <img className="image" height={400} width={600} src={currentPhoto.url} alt={currentPhoto.description} />
             </div>
-                <button onClick={handlePrev}>Previous</button>
-                <button onClick={handleNext}>Next</button>
+            <div className="buttons-container">
+                <button className="navigation-button" onClick={handlePrev}>Previous</button>
+                <button className="navigation-button" onClick={handleNext}>Next</button>
+            </div>
         </div>
       </>
     );

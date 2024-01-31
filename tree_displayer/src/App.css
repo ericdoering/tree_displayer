@@ -11,3 +11,36 @@
 body {
   background-color: rgb(232, 250, 206);
 }
+
+.displayer {
+  position: absolute;
+  margin-top: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-evenly; 
+  margin-top: 10px; 
+}
+
+.navigation-button {
+  padding: 10px 20px;
+  font-size: 16px; 
+  cursor: pointer;
+  color: rgb(253, 255, 252);
+  background-color:rgb(101, 80, 36);
+}
+
+.tree-title {
+  color: rgb(101, 80, 36);
+  text-align: center;
+}
+
+.image {
+  border-radius: 20px;
+  box-shadow: -4px 2px 2px 2px rgb(32, 44, 26);
+
+}
